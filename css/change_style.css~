@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2015, 2:24:04 PM
+    Author     : vu
+*/
+@font-face {
+    font-family: 'webfonts-gotham-medium';
+    src: url('fonts/gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'webfonts-gotham-book';
+    src: url('fonts/gotham/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: 'webfonts-gotham-bold';
+    src: url('fonts/gotham/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'webfonts-gotham-light';
+    src: url('fonts/gotham/Gotham-Light.otf');
+}
+
+
+body {
+    font-family: 'webfonts-gotham-book';
+}
+.centerize-block {
+    text-align: center;
+}
+body.page-404 {
+    background-image: url(../img/404_bg.png);
+}
+
+h1 {
+    color: #ff5100;
+    font-size: 60px;
+    font-family: 'webfonts-gotham-bold';
+}
+
+div.main-content.centerize-block h5.up {
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'webfonts-gotham-book';
+}
+
+div.main-content.centerize-block h5.down  {
+    color: white;
+    font-size: 20px;
+    font-family: 'webfonts-gotham-bold';
+}
+
+p.up a, p.up {
+    color: #ff5100;
+    font-family: 'webfonts-gotham-medium';
+    font-size: 20px;
+}
+p.down a, p.down{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'webfonts-gotham-light';
+}
+
+footer.centerize-block ul li a, footer.centerize-block ul li  {
+    color: white;
+    font-weight: normal;
+    font-family: 'webfonts-gotham-light';
+    font-size: 12px;
+}
+
+.logo-404 {
+    margin-top: 10%;
+}
+
+#slider-wrapper {
+    width:800px; 
+    height:200px;
+}
+#slider {
+    width:800px;
+    height:200px;
+    position:relative;
+}
+.sp {
+    width:800px; 
+    height:200px; 
+    position:absolute;
+}
+
+#nav {
+    margin-top:20px;
+    width:100%;
+}
+#button-previous {/*float:left;*/}
+#button-next {/*float:right;*/}
